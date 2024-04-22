@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "社区",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "chat-input": "/components/im-chat/chatinput"
+  }
+}

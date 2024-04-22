@@ -1,0 +1,152 @@
+{
+	// 路由页面的配置
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home-page/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mine/modeify_pw",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/modeify",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home-page/detail",
+			"style": {
+				"navigationBarTitleText": "商品详细",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/registration",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/forget-password",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shop_cart/shop_cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/Cultural-Industries/wenchuang",
+			"style": {
+				"navigationBarTitleText": "文创"
+			}
+		},
+		{
+			"path": "pages/zhoubian/zhoubian",
+			"style": {
+				"navigationBarTitleText": "周边"
+			}
+		},
+		{
+			"path": "pages/shopping-mall/shopping",
+			"style": {
+				"navigationBarTitleText": "购物中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+	// 全局样式的配置
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1afa29",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		//底部控制台
+		"list": [{
+				"pagePath": "pages/home-page/home",
+				"iconPath": "static/under_control/首页.png",
+				"selectedIconPath": "static/under_control/首页 (1).png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shopping-mall/shopping",
+				"iconPath": "static/under_control/采购管理.png",
+				"selectedIconPath": "static/under_control/采购管理 (2).png",
+				"text": "购物中心"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"iconPath": "static/under_control/信息.png",
+				"selectedIconPath": "static/under_control/信息 (1).png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/under_control/个人.png",
+				"selectedIconPath": "static/under_control/个人 (1).png",
+				"text": "个人主页"
+			}
+
+		]
+	},
+	"uniIdRouter": {},
+	"condition": {
+		// / /模式配置，
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

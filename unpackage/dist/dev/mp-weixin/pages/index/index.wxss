@@ -1,0 +1,14 @@
+
+.divider {
+	width: 100%;
+	border-bottom: 2px solid #000000;
+	/* 水平线条样式，可以根据需要调整粗细、颜色等 */
+	margin: 20px 0;
+	/* 可以根据需要调整上下间距 */
+}
+.text {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+

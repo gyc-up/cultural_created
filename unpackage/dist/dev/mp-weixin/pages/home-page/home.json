@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "liu-goods-swiper": "/uni_modules/liu-goods-swiper/components/liu-goods-swiper/liu-goods-swiper"
+  }
+}
